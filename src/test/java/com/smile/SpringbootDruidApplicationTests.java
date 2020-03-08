@@ -51,6 +51,8 @@ public class SpringbootDruidApplicationTests {
             }
         }
 
+        //******************添加主数据库信息*************
+        userService.insertUserElement(new User().setName("校长").setNo("wertiosd94"));
     }
 
 }
