@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  profiles:
+    active: druid  # 配置环境变量的切换
+
+
+mybatis:
+  mapper-locations: classpath:mybatis/*.xml  # 加载Mapper文件的路径
+  type-aliases-package: com.smile.pojo   # 符合驼峰命名法
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 在控制台打印SQL语句
