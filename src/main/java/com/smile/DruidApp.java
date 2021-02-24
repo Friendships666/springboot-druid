@@ -13,6 +13,7 @@ public class DruidApp {
         SpringApplication.run(DruidApp.class, args);
         System.out.println("***********项目已经启动*************");
         System.out.println("***********github update*************");
+		System.out.println("***********update to github*************");
     }
 
 }
