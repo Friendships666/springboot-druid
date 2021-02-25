@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.smile.mapper.LoginMapper">
 
-    <resultMap id="loginResultMap" type="Login">
+    <resultMap id="loginResultMap" type="com.smile.pojo.Login">
         <result column="id" property="id"/>
         <result column="login_name" property="loginName"/>
         <result column="password" property="password"/>
